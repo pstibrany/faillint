@@ -6,8 +6,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/fatih/faillint/faillint"
 	"golang.org/x/tools/go/analysis/singlechecker"
+
+	"github.com/pstibrany/faillint/faillint"
 )
 
 var (
